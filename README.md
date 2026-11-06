@@ -32,3 +32,7 @@ docker compose -f docker_compose.yml up --build
 - SQL-скрипты выполняются автоматически только при первом создании каталога данных PostgreSQL.
   Чтобы повторно инициализировать БД с нуля, используйте `docker compose -f docker_compose.yml down -v`,
   затем снова `docker compose -f docker_compose.yml up --build`.
+
+## Результат работы 
+  <img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/e38ee04c-fc44-4986-8f8a-10a77fdaedaa" />
+
